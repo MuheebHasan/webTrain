@@ -2,51 +2,391 @@
 <html lang="en">
 <head>
      <title>My Portfolio</title>
+     <style>
+       
+       .centered-content{
+
+background-color: #333;
+text-align: center;
+border-radius: 15px;
+ color: white;
+ margin-top: 20px;
+ margin-left: 60px;
+ margin-right: 60px;
+  margin-bottom: 10px;
+
+  padding-bottom: 20px;
+  
+padding-top: 10px;
+ 
+        }
+      .centered-content h1{
+        margin-bottom: 0;
+      }
+      
+      .centered-content h3{
+   margin-top: 0;
+   color: gray;
+      }
+      
+      
+      .links-container a:hover{
+    color: yellow;
+ }
+ .links-container a{
+    color: white;
+     text-decoration: none;
+   
+ }
+ .boxtwo{
+    
+    border: 1px solid lightgray;
+            border-radius: 10px; 
+            margin: 40px 60px;  
+         padding-top: 0px ;
+         padding-left: 20px;
+         padding-bottom: 0px;
+} 
+    
+.boxtwo  h2{
+      padding: 0;
+      margin-bottom: 0;
+  }
+    
+    .boxtwo p {
+margin: 0;
+padding: 0;
+    }
+    .picture{
+        width: 150px;
+        height: 150px;
+        border: 1px solid sienna;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 50%;
+background-image: url('./ee.png');
+display: block; margin: 20px auto;
+ 
+
+
+padding-bottom: 0px;
+}
+
+.submit{
+    border: 1px solid lightgray;
+    margin-top: 20px;
+ margin-left: 60px;
+ margin-right: 60px;
+ padding: 10px;border-radius: 15px;
+
+ }
+ form label {
+            display: block;
+            margin-top: 10px;
+            margin-bottom: 5px;
+        }
+
+        form input, form textarea {
+            width: 100%;
+            padding: 5px;
+            margin-bottom: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        form button {
+          
+        
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        form button:hover {
+            background-color: darkgreen;
+        }
+.footer{
+    background-color: #333;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+ margin-left: 60px;
+ margin-right: 60px;
+ 
+  border-radius: 5px;
+  
+}
+.footer a{
+    color: yellow;
+    text-decoration: none;
+}
+   .footer a:hover {
+    color: white;
+   } 
+   .box_three{
+    height: 100px;
+        border: 1px solid sienna;
+        background-position: center;
+        background-size: cover;
+         
+        border-radius: 50%;
+background-image: url('./whatsapp.jpg');
+display: block; margin: 20px auto;
+ 
+    
+    margin-top: 20px;
+ margin-left: 60px;
+ margin-right: 60px;
+ 
+  border-radius: 15px;
+ padding-top: 5px;
+padding-bottom: 80px;
+
+padding-left: 20px;
+   }
+   .box_three h2{
+    color: gray;
+   
+   }
+   .insidediv {
+    border: 1px solid sienna;
+    border-radius: 15px;
+    background-color: #D1D9E0;
+    height: auto;
+    margin-right: 15px;    
+    margin-left: 5px;
+     padding: 10px;   transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.insidediv button {
+width: auto;    padding: 10px 35px;
+    margin: 10px 2px;   
+    background-color: rgb(0, 128, 0);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: left;
+   }
+   .insidediv button:hover {
+    transform: translateY(-5px);  
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);  
+}
+.insidediv button:active{
+    transform: translateY(5px);  
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);  
+}
+
+
+
+ .box_four {
+
+  
+    border: 1px solid lightgray;
+            border-radius: 10px; 
+            margin: 40px 60px;  
+         padding-top: 0px ;
+         padding-left: 20px;
+      position: relative;
+
+         height: 870px;
+
+ }
+.firstbox{
+    background-color: orange;
+    border: 1px solid lightgray;
+            border-radius: 10px; 
+            margin: 40px 60px;  
+          padding-left: 20px;
+ text-align: center;
+         height: 250px;
+         width: 200px;
+
+}
+.firstbox  h3{
+    margin-top: 10px;
+      margin-bottom: 0px;
+      padding-bottom: 0px;
+   }
+   .firstbox p {
+margin: 0;
+     }
+     .secondbox{
+        background-color: rgb(0, 149, 255);
+    border: 1px solid lightgray;
+            border-radius: 10px; 
+            margin: 0px 60px;  
+          padding-left: 20px;
+          
+ text-align: center;
+         height: 250px;
+         width: 200px;
+     }
+     .secondbox  h3{
+     margin-top: 10px;
+      margin-bottom: 0px;
+      padding-bottom: 0px;
+   }
+   .secondbox p {
+margin: 0;
+     }
+
+     .therdbox{
+        background-color: #a0d2e3;    border: 1px solid rgb(211, 211, 211);
+    
+            border-radius: 10px; 
+            margin: 0px 60px;  
+          padding-left: 20px;
+          padding-top: 0px;
+ text-align: center;
+         height: 200px;
+         width: 1300px;
+     }
+     .therdbox h3{
+    margin-top: 10px;
+      margin-bottom: 0px;
+      padding-bottom: 0px;
+   }
+   .therdbox p {
+margin: 0;
+     }
+     .fourbox{
+        background-color: purple;
+    border: 1px solid lightgray;
+            border-radius: 10px; 
+ padding: 20px; text-align: center;
+         height: 160px;
+         width: 160px;
+    position: absolute;
+    top: -420px;
+    left: 70px;
+           }
+</style>
 </head>
 <body>
-     <header>
-        <h1>Your Name</h1>
-    </header>
+<!----------------------------box 1------------------------------------->
+    <div class="centered-content">
+        <h1>John Doe</h1> 
+        <h3>Full Stack Developer | Designer | Programmer</h3>
+        <div class="links-container">
+            <p>
+                <a href="#">About Me</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="#">Skills</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="#">Projects</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="#">Contact</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </p>
+        </div>
+        </div>
 
-     <nav>
-        <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="contact.html">Contact Me</a></li>
-        </ul>
-    </nav>
 
-     <section id="about">
-        <h2>About Me</h2>
-        <p>
-            Hi, I am Muheeb Hasan, a passionate developer with experience in web and software development. 
-            I love to create intuitive and efficient solutions that solve real-world problems.
-        </p>
-    </section>
+<!----------------------------box 2------------------------------------->
+<div class="boxtwo">
 
-     <section id="projects">
-        <h2>Projects</h2>
-        <ul>
-            <li>
-                <h3>Project 1: Portfolio Website</h3>
-                <p>A personal portfolio website showcasing my projects and skills.</p>
-                <img src="https://via.placeholder.com/150" alt="Project 1 image">
-            </li>
-            <li>
-                <h3>Project 2: E-commerce Website</h3>
-                <p>An online store featuring a user-friendly interface for customers to buy products.</p>
-                <img src="https://via.placeholder.com/150" alt="Project 2 image">
-            </li>
-            <li>
-                <h3>Project 3: Task Manager App</h3>
-                <p>An app to manage tasks, set deadlines, and increase productivity.</p>
-                <img src="https://via.placeholder.com/150" alt="Project 3 image">
-            </li>
-        </ul>
-    </section>
+    <h2>About Me</h2>
+<p>Hi,I`m John, a passionate web Developer with over 5 years of experience in building dynamic and responsive websites. I love coding
+    ,design,and solving complex problems. I specialize in JavaScript, React ,and Node.js.</p>
 
-     <footer>
-        <p>&copy; 2024 Muheeb Hasan. All rights reserved.</p>
+<div class="picture">
+
+ 
+</div>
+ 
+</div>
+
+
+
+<!----------------------------box 3------------------------------------->
+
+<div class="box_three">
+
+<h2>Skills</h2>
+
+
+
+<div class="insidediv">
+
+
+<button>HTML5 & CSS3</button>
+<button>JavaScript (ES6+)</button>
+<button>React & Redux</button>
+<button>Node.js & Express</button>
+<button>SQL & NoSQL Databases</button>
+<button>Git & GitHub</button>
+<button>Responsive Design</button>
+
+
+</div>
+
+</div>
+<!----------------------------box 4------------------------------------->
+
+<div class="box_four"> 
+
+    <h2>Projects</h2>
+
+    <div class="firstbox">
+        <h3>Portfolio website</h3>
+        <p>A personal Portfolio website to showcase my work and skills,Built with HTML,CSS,and JavaScript.</p>
+    </div>
+
+    <div class="secondbox">
+        <h3>E-Commerce Site</h3>
+        <p>A fully functional E-Commerce platform using react and node.js implements secure user authentication and 
+            stripe payment integration. </p>
+    </div>
+
+
+    <div class="therdbox">
+        <h3>Blog Platform</h3>
+        <p>A responsive blog platform where users can cerate edit,and publish posts,built with node.js,express,and mongoDB.</p>
+    </div>
+
+    <div class="fourbox">
+        <h>Task Management App</h3>
+        <p>A task management application with features like task creation,categorization,and deadline tracking
+            Built using react and firebase. </p>
+    </div>
+ 
+</div>
+
+
+<!----------------------------box 5------------------------------------->
+
+<div class="submit">
+    
+<h2>Contact Me</h2>
+
+<p>if you`d like to get in touch , please fill out the form below : </p>
+
+
+     
+    <form action="/submit-message" method="POST">
+         <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter Your Name" required>
+
+         <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter Your Email" required>
+
+         <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" placeholder="Enter Your Message" required></textarea>
+
+         <button type="submit" style="color: green; border-color: green;">Submit</button>
+    </form>
+ 
+
+
+
+</div>
+
+
+
+    <footer class="footer">
+        <p>&copy; 2024 John Doe |<a href="#">GitHub</a>|<a href="#">Linkedin</a></p>
     </footer>
+
+
+
+   
 </body>
 </html>

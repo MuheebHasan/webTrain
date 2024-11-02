@@ -1,0 +1,88 @@
+
+      
+ .boxtwo{
+    
+    border: 1px solid lightgray;
+            border-radius: 10px; 
+            margin: 40px 60px;  
+         padding-top: 0px ;
+         padding-left: 20px;
+         padding-bottom: 0px;
+} 
+    
+.boxtwo  h2{
+      padding: 0;
+      margin-bottom: 0;
+  }
+    
+    .boxtwo p {
+margin: 0;
+padding: 0;
+    }
+    .picture{
+        width: 150px;
+        height: 150px;
+        border: 1px solid sienna;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 50%;
+background-image: url('../assest/ee.png');
+display: block; margin: 20px auto;
+ 
+
+
+padding-bottom: 0px;
+}
+
+.submit{
+    border: 1px solid lightgray;
+    margin-top: 20px;
+ margin-left: 60px;
+ margin-right: 60px;
+ padding: 10px;border-radius: 15px;
+
+ }
+ form label {
+            display: block;
+            margin-top: 10px;
+            margin-bottom: 5px;
+        }
+
+        form input, form textarea {
+            width: 100%;
+            padding: 5px;
+            margin-bottom: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        form button {
+          
+        
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        form button:hover {
+            background-color: darkgreen;
+        }
+.footer{
+    background-color: #333;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+ margin-left: 60px;
+ margin-right: 60px;
+ 
+  border-radius: 5px;
+  
+}
+.footer a{
+    color: yellow;
+    text-decoration: none;
+}
+   .footer a:hover {
+    color: white;
+   } 

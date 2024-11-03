@@ -1,7 +1,11 @@
 .insidediv {
+   display: grid;
+   grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); /* Responsive grid layout */
+   gap: 15px; /* Space between buttons */
    padding: 15px;
    background-color: #D1D9E0;
 }
+
 
 .firstbox, .secondbox, .therdbox, .fourbox {
    border-radius: 10px;

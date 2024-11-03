@@ -1,14 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-     <title>My Portfolio</title>
-     <link rel="stylesheet" href="./CSS/main.css">
- 
-    </head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="./CSS/main.css">
+</head>
 <body>
-<!----------------------------box 1------------------------------------->
+
+    <!-- Navigation Header -->
+    <header>
+        <h1>My Portfolio</h1>
+        <nav>
+            <a href="index.html">Home</a> |
+            <a href="grid.html">Blog</a>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
     <div class="centered-content">
-        <h1>John Doe</h1> 
+        <h1>Muheeb Hasan</h1> 
         <h3>Full Stack Developer | Designer | Programmer</h3>
         <div class="links-container">
             <p>
@@ -18,119 +29,68 @@
                 <a href="#">Contact</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             </p>
         </div>
+    </div>
+
+    <!-- About Me Section -->
+    <div class="boxtwo">
+        <h2>About Me</h2>
+        <p>Hi, I’m John, a passionate web developer with over 5 years of experience in building dynamic and responsive websites. I love coding, design, and solving complex problems. I specialize in JavaScript, React, and Node.js.</p>
+    </div>
+
+    <!-- Skills Section -->
+    <div class="box_three">
+        <h2>Skills</h2>
+        <div class="insidediv">
+            <button>HTML5 & CSS3</button>
+            <button>JavaScript (ES6+)</button>
+            <button>React & Redux</button>
+            <button>Node.js & Express</button>
+            <button>SQL & NoSQL Databases</button>
+            <button>Git & GitHub</button>
+            <button>Responsive Design</button>
         </div>
-
-
-<!----------------------------box 2------------------------------------->
-<div class="boxtwo">
-
-    <h2>About Me</h2>
-<p>Hi,I`m John, a passionate web Developer with over 5 years of experience in building dynamic and responsive websites. I love coding
-    ,design,and solving complex problems. I specialize in JavaScript, React ,and Node.js.</p>
-
-<div class="picture">
-
- 
-</div>
- 
-</div>
-
-
-
-<!----------------------------box 3------------------------------------->
-
-<div class="box_three">
-
-<h2>Skills</h2>
-
-
-
-<div class="insidediv">
-
-
-<button>HTML5 & CSS3</button>
-<button>JavaScript (ES6+)</button>
-<button>React & Redux</button>
-<button>Node.js & Express</button>
-<button>SQL & NoSQL Databases</button>
-<button>Git & GitHub</button>
-<button>Responsive Design</button>
-
-
-</div>
-
-</div>
-<!----------------------------box 4------------------------------------->
-
-<div class="box_four"> 
-
-    <h2>Projects</h2>
-
-    <div class="firstbox">
-        <h3>Portfolio website</h3>
-        <p>A personal Portfolio website to showcase my work and skills,Built with HTML,CSS,and JavaScript.</p>
     </div>
 
-    <div class="secondbox">
-        <h3>E-Commerce Site</h3>
-        <p>A fully functional E-Commerce platform using react and node.js implements secure user authentication and 
-            stripe payment integration. </p>
+    <!-- Projects Section -->
+    <div class="box_four">
+        <h2>Projects</h2>
+        <div class="firstbox">
+            <h3>Portfolio Website</h3>
+            <p>A personal portfolio website to showcase my work and skills, built with HTML, CSS, and JavaScript.</p>
+        </div>
+        <div class="secondbox">
+            <h3>E-Commerce Site</h3>
+            <p>A fully functional e-commerce platform using React and Node.js with secure user authentication and Stripe payment integration.</p>
+        </div>
+        <div class="therdbox">
+            <h3>Blog Platform</h3>
+            <p>A responsive blog platform where users can create, edit, and publish posts, built with Node.js, Express, and MongoDB.</p>
+        </div>
+        <div class="fourbox">
+            <h3>Task Management App</h3>
+            <p>A task management application with features like task creation, categorization, and deadline tracking, built using React and Firebase.</p>
+        </div>
     </div>
 
-
-    <div class="therdbox">
-        <h3>Blog Platform</h3>
-        <p>A responsive blog platform where users can cerate edit,and publish posts,built with node.js,express,and mongoDB.</p>
+    <!-- Contact Section -->
+    <div class="submit">
+        <h2>Contact Me</h2>
+        <p>If you’d like to get in touch, please fill out the form below:</p>
+        <form action="/submit-message" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter Your Name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter Your Email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" placeholder="Enter Your Message" required></textarea>
+            <button type="submit" class="submit">Submit</button>
+        </form>
     </div>
 
-    <div class="fourbox">
-        <h>Task Management App</h3>
-        <p>A task management application with features like task creation,categorization,and deadline tracking
-            Built using react and firebase. </p>
-    </div>
- 
-</div>
-
-
-<!----------------------------box 5------------------------------------->
-
-<div class="submit">
-    
-<h2>Contact Me</h2>
-
-<p>if you`d like to get in touch , please fill out the form below : </p>
-
-
-     
-    <form action="/submit-message" method="POST">
-         <label for="name">Name:</label>
-        <input type="text" id="name" name="name" placeholder="Enter Your Name" required>
-
-         <label for="email">Email:</label>
-        <input type="email" id="email" name="email" placeholder="Enter Your Email" required>
-
-         <label for="message">Message:</label>
-        <textarea id="message" name="message" rows="5" placeholder="Enter Your Message" required></textarea>
-
-         <button type="submit" class="submit">Submit</button>
-    </form>
- 
-
-
-
-</div>
-<figure>
-    <img src="./assest/whatsapp.jpg" alt="Trulli" style="width:100%">
-    <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
-  </figure>
-
-
+    <!-- Footer -->
     <footer class="footer">
-        <p>&copy; 2024 John Doe |<a href="#">GitHub</a>|<a href="#">Linkedin</a></p>
+        <p>&copy; 2024 Muheeb Hasan | <a href="https://github.com/MuheebHasan/webTrain">GitHub</a> | <a href="https://www.linkedin.com/in/muheeb-hasan-513311288/">LinkedIn</a> | <a href="https://www.facebook.com/profile.php?id=100009651441699">Facebook</a></p>
     </footer>
 
-
-
-   
 </body>
 </html>

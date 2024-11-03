@@ -29,7 +29,9 @@ padding: 0;
         border-radius: 50%;
 background-image: url('../assest/ee.png');
 display: block; margin: 20px auto;
- 
+ .submit{
+    color: green; border-color: green;
+ }
 
 
 padding-bottom: 0px;
